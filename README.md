@@ -51,8 +51,10 @@ Figures below are the thesis Chapter 6 / DICTA plots (from `Chapter_06_pics`), s
 
 <p align="center">
   <img src="docs/figures/corrosion_baselines.png" alt="Corrosion baselines" width="46%">
-  &nbsp;
-  <img src="docs/figures/legends.png" alt="Baseline legends" width="46%">
+</p>
+
+<p align="center">
+  <img src="docs/figures/legends.png" alt="Baseline legends" width="180">
 </p>
 
 t-SNE panels (carpet and corrosion, ss-VQ-VAE vs Deep SAD) are in [`docs/figures/tsne/`](docs/figures/tsne/).
