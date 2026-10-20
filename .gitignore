@@ -1,0 +1,78 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+.ipynb_checkpoints/
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Logs and run outputs
+log/
+logs/
+results/
+runs/
+*.log
+
+# Cached datasets and tensors (do not commit large data)
+data/
+*.pt
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Models / checkpoints
+*.tar
+*.ckpt
+*.pth
+
+# Figures / plots (do not commit run artefacts; exceptions below)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.gif
+*.pickle
+*.fig
+
+# README / paper figures (tracked so GitHub renders images)
+!docs/figures/*.png
+!docs/figures/tsne/**/*.png
+
+# Conference files already on this GitHub repository
+!DICTA23_camera_ready.pdf
+!paperID_37_poster_RenukaSharma_DICTA23.pdf
+!paperID_37_5minpresentation_DICTA23_ss_VQ_VAE.gif
+
+# Editor-generated swap files
+*~
+.#*
+\#*#
+
+# Local notes — not for public release
+CLEANUP_LOG.md
+HANDOFF*
+scripts/_strip_personal_paths.py
+
+# Local experiment launchers (old cluster paths). Keep on disk; do not publish.
+/*.sh
+src/run_*.sh
+binary_classifier/run*.sh
+!scripts/run_experiment.sh

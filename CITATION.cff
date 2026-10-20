@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "ss-VQ-VAE: Deep Semi-supervised Anomaly Detection Using VQ-VAE"
+message: "If you use this software, please cite the accompanying paper below."
+type: software
+# Software / repository maintainer only (GitHub “Cite this repository” software card).
+# Publication authorship for the DICTA 2023 paper remains in preferred-citation below.
+authors:
+  - family-names: "Sharma"
+    given-names: "Renuka"
+repository-code: "https://github.com/RenukaSharma/ss-vq-vae"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Deep Semi-supervised Anomaly Detection Using VQ-VAE"
+  authors:
+    - family-names: "Sharma"
+      given-names: "Renuka"
+    - family-names: "Shi"
+      given-names: "Hengcan"
+    - family-names: "Cai"
+      given-names: "Jianfei"
+    - family-names: "Awate"
+      given-names: "Suyash P."
+    - family-names: "Birbilis"
+      given-names: "Nick"
+  collection-title: "2023 International Conference on Digital Image Computing: Techniques and Applications (DICTA)"
+  year: 2023
+  pages: "273-280"
+  doi: "10.1109/DICTA60407.2023.00045"
+  url: "https://ieeexplore.ieee.org/document/10410934/"
+references:
+  - type: thesis
+    title: "Anomaly Detection in Images Using One-class and Multi-class Learning Approaches"
+    authors:
+      - family-names: "Sharma"
+        given-names: "Renuka"
+    institution:
+      name: "Monash University and IIT Bombay (IITB-Monash Research Academy)"
+    year: 2022
+    doi: "10.26180/23584503"
+    url: "https://bridges.monash.edu/articles/thesis/Anomaly_Detection_in_Images_Using_One-class_and_Multi-class_Learning_Approaches/23584503"

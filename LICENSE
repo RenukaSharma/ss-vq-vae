@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 RenukaSharma
+Copyright (c) 2026 Renuka Sharma and Suyash P. Awate
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+This software is built upon the Deep SAD codebase by Ruff et al. (2020),
+which is also released under the MIT License.
